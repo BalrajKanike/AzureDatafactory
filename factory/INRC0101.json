@@ -1,0 +1,9 @@
+{
+	"name": "INRC0101",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "e2959ab7-3fa4-4ab3-b8db-749b4c7578c3",
+		"tenantId": "d17b0a6d-c870-4f20-a411-e0374fe161e4"
+	}
+}
