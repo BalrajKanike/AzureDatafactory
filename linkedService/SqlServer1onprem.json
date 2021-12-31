@@ -1,0 +1,16 @@
+{
+	"name": "SqlServer1onprem",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "SqlServer",
+		"typeProperties": {
+			"connectionString": "integrated security=False;data source=MARS;initial catalog=INCREMENTAAL;user id=sa",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiIxNjA5NTk4ZC1jZjM3LTQzNzQtODIwNC03OGY1OWVjYTQ0NmIiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "SELFHOSTED1",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}
